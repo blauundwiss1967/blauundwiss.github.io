@@ -1,0 +1,197 @@
+/*Beginn Stylesheet*/
+
+/*Schriftsammlung*/
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Ceviche+One|Fugaz+One|Oleo+Script|Racing+Sans+One|Zilla+Slab+Highlight|Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
+tab1 { padding-left: 4em ;}
+/*Wrapper & Body*/
+body {    width: 100%;
+          height: 100%;
+          background-color: white;
+          /*background-image: linear-gradient( to bottom, #ffffff 95%, #000000);*/
+          margin: 0 auto;}
+
+#Wrapper {  width: 95%;
+            height: 100%;
+            margin: 0 auto;}
+
+.header {width: 100%;
+        height: 400px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        background-image: url(https://www.evz.ch/fileadmin/_processed_/csm_Header_Einlauf3_0de582fba4.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center;
+        text-align: center;
+        top: 0;
+        left: 0;}
+
+/*Navigation*/
+
+nav ul li a {
+text-decoration: overline;
+font:none;
+margin-top: 5%;
+align-items: center;
+text-transform: uppercase;
+width: 100%;
+color: black;
+text-align: center;
+font-size: 19px;
+
+
+}
+nav ul {list-style: none;
+text-align: center;
+border: none;
+padding: 0;
+
+
+
+}
+nav ul li {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+nav ul li a:hover{filter: opacity(0.5);}
+
+.navbar {
+    overflow: hidden;
+    position: sticky; /* Set the navbar to fixed position */
+    top: 0;
+    left:0; /* Position the navbar at the top of the page */
+    right: 0;
+    width: 100%; /* Full width */
+    text-align: center;
+    margin: 0, auto;
+    align-content: center;
+    z-index: +5;
+    }
+
+
+
+/*Bilder*/
+.Bild {align-items: center;
+      width: 130px;
+      position: relative;
+      height:130px;
+      margin: auto;
+      top: 25%;
+      border-color: none;
+      text-align: center;
+      display: block;
+      z-index: +5;
+      }
+
+
+.Bild.Grösseprofilbild {
+                  border-radius: 50%;
+                  margin: 0, auto;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  background-position: left;
+                  background-image: url(https://scontent-frx5-1.cdninstagram.com/vp/ffaf2292d1180ebd2c66fa0e80c2fb27/5B58FA80/t51.2885-19/s320x320/28766695_177939673002235_4405888386947088384_n.jpg);
+                  }
+
+.Grösse {width: 300px;
+        height: 300px;}
+
+.Grösse.position {margin: 0 auto;}
+
+.Grösse.position.form {border-radius: 50%;}
+
+/*Titel*/
+
+.titell {font-style: oblique;
+        font-family: 'Fredoka One';
+        color: #4286f4;
+        text-decoration: underline;
+        text-align: center;
+        /*opacity: 0.5;
+        text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+    #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;*/}
+
+
+.titel.gross{font-size: 60px;}
+
+.titel.klein{font-size: 50px;}
+
+/*.titel.klein:hover{filter: opacity(0.5);*/}
+/*Paragraph*/
+
+.text { font-weight: bold;
+        text-align: center;
+        margin: 0 auto;}
+
+.titel {font-style: oblique;
+      /*  font-family: 'Crete Round';*/
+        font-family: 'Cevice+One';
+        color: black;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 50px;}
+
+/*Table*/
+.table {
+  font: black;
+  font-style: normal;
+  border-collapse: collapse;
+  width: 50%;
+  border: 1px solid black;
+  margin:auto;
+  text-align: right;
+  margin-bottom: 5%;
+  margin-top: 5%;}
+
+  td {
+  text-align: left;
+  font-family: 'Cevice+One';
+  border: none;
+  padding: 8px;
+  position: static;
+  font-weight: bold;}
+
+.text{text-align: center;
+      font-family: 'Fredoka One';
+      color: blue;}
+
+      .a3{font-family: 'Fredoka One';
+      color: blue;
+      text-align: center;}
+
+#display
+        {width: 100%;
+        height: 10%;
+        margin: 0 auto;
+        font-size: 50px;
+        text-align: center;
+        font-style: oblique;
+        text-decoration: underline;
+        font-family: 'Cevice+One';
+        color: black;
+              font-size: 50px;
+              text-align: center;}
+
+
+
+
+        footer { background-color: black;
+                  width: 100%;
+                  height: 500%;
+                  text-align: center;
+                  }
+                .ft {color: white;
+                  font-family: 'Cevice+One';
+                font-size: 20px;
+                padding-top: 5%;
+                margin-bottom: 100px:}
+
+      .a    {color: white;
+              font-family: 'Cevice+One';
+              display: block;}
+              .a.zwei{ color: blue;}
+      .a3{color: black;}
