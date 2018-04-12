@@ -1,4 +1,15 @@
 /*Beginn Stylesheet*/
+/*
+Theme Name:Lego
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Have fun.
+Version: 1.
+Text Domain: blauundwiss1967
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
 
 /*Schriftsammlung*/
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Ceviche+One|Fugaz+One|Oleo+Script|Racing+Sans+One|Zilla+Slab+Highlight|Fredoka+One');
